@@ -26,3 +26,4 @@
 * Open .xcworkspace file
 
 ## Demo:
+https://github.com/Tinkldeath/Encrypter/assets/68143464/546dbb8d-1102-4e7e-9ea8-b019b3764d7e
