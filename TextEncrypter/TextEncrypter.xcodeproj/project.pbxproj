@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32676B4E2A38596B00A83EFA /* FilesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32676B4D2A38596B00A83EFA /* FilesUseCase.swift */; };
+		32676B512A385A7200A83EFA /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32676B502A385A7200A83EFA /* CryptoService.swift */; };
+		32676B532A385AFE00A83EFA /* FileVaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32676B522A385AFE00A83EFA /* FileVaultService.swift */; };
+		32676B552A385B7B00A83EFA /* KeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32676B542A385B7B00A83EFA /* KeyService.swift */; };
+		32676B582A385C1E00A83EFA /* FilesDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32676B572A385C1E00A83EFA /* FilesDataStore.swift */; };
+		32676B5B2A385D5800A83EFA /* FilesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32676B5A2A385D5800A83EFA /* FilesListViewModel.swift */; };
+		32676B5D2A38615E00A83EFA /* DisplayFilesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32676B5C2A38615D00A83EFA /* DisplayFilesUseCase.swift */; };
+		32676B5F2A387FC400A83EFA /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32676B5E2A387FC400A83EFA /* FileViewController.swift */; };
+		32676B612A3881B700A83EFA /* DisplayFileUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32676B602A3881B700A83EFA /* DisplayFileUseCase.swift */; };
+		32676B632A38827200A83EFA /* FileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32676B622A38827200A83EFA /* FileViewModel.swift */; };
+		32676B662A3889ED00A83EFA /* FilesListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32676B652A3889ED00A83EFA /* FilesListRouter.swift */; };
+		32676B682A388FB000A83EFA /* FileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32676B672A388FB000A83EFA /* FileRouter.swift */; };
+		32FCFACD2A31B34000E0B399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FCFACC2A31B34000E0B399 /* AppDelegate.swift */; };
+		32FCFACF2A31B34000E0B399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FCFACE2A31B34000E0B399 /* SceneDelegate.swift */; };
+		32FCFAD12A31B34000E0B399 /* FilesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FCFAD02A31B34000E0B399 /* FilesListViewController.swift */; };
+		32FCFAD42A31B34000E0B399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FCFAD22A31B34000E0B399 /* Main.storyboard */; };
+		32FCFAD62A31B34200E0B399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FCFAD52A31B34200E0B399 /* Assets.xcassets */; };
+		32FCFAD92A31B34200E0B399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FCFAD72A31B34200E0B399 /* LaunchScreen.storyboard */; };
+		32FECEBC2A31B7F500CCF678 /* FileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FECEBB2A31B7F500CCF678 /* FileData.swift */; };
+		32FECEC82A31BE0300CCF678 /* RealmFileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FECEC72A31BE0300CCF678 /* RealmFileData.swift */; };
+		32FECECA2A31C29000CCF678 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FECEC92A31C29000CCF678 /* KeychainWrapper.swift */; };
+		32FECED02A31D8E300CCF678 /* SecretDataWorkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FECECF2A31D8E300CCF678 /* SecretDataWorkers.swift */; };
+		ACBFEF5D9E9885F4B481830B /* Pods_TextEncrypter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DCBD254A84F8C77A0A40CD /* Pods_TextEncrypter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32676B4D2A38596B00A83EFA /* FilesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesUseCase.swift; sourceTree = "<group>"; };
+		32676B502A385A7200A83EFA /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		32676B522A385AFE00A83EFA /* FileVaultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileVaultService.swift; sourceTree = "<group>"; };
+		32676B542A385B7B00A83EFA /* KeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyService.swift; sourceTree = "<group>"; };
+		32676B572A385C1E00A83EFA /* FilesDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesDataStore.swift; sourceTree = "<group>"; };
+		32676B5A2A385D5800A83EFA /* FilesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesListViewModel.swift; sourceTree = "<group>"; };
+		32676B5C2A38615D00A83EFA /* DisplayFilesUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayFilesUseCase.swift; sourceTree = "<group>"; };
+		32676B5E2A387FC400A83EFA /* FileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
+		32676B602A3881B700A83EFA /* DisplayFileUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFileUseCase.swift; sourceTree = "<group>"; };
+		32676B622A38827200A83EFA /* FileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewModel.swift; sourceTree = "<group>"; };
+		32676B652A3889ED00A83EFA /* FilesListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesListRouter.swift; sourceTree = "<group>"; };
+		32676B672A388FB000A83EFA /* FileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRouter.swift; sourceTree = "<group>"; };
+		32FCFAC92A31B34000E0B399 /* TextEncrypter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextEncrypter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FCFACC2A31B34000E0B399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32FCFACE2A31B34000E0B399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32FCFAD02A31B34000E0B399 /* FilesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesListViewController.swift; sourceTree = "<group>"; };
+		32FCFAD32A31B34000E0B399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32FCFAD52A31B34200E0B399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32FCFAD82A31B34200E0B399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32FCFADA2A31B34200E0B399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FECEBB2A31B7F500CCF678 /* FileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileData.swift; sourceTree = "<group>"; };
+		32FECEC72A31BE0300CCF678 /* RealmFileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmFileData.swift; sourceTree = "<group>"; };
+		32FECEC92A31C29000CCF678 /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		32FECECF2A31D8E300CCF678 /* SecretDataWorkers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretDataWorkers.swift; sourceTree = "<group>"; };
+		56396B42FF71FF7BB350918A /* Pods-TextEncrypter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextEncrypter.debug.xcconfig"; path = "Target Support Files/Pods-TextEncrypter/Pods-TextEncrypter.debug.xcconfig"; sourceTree = "<group>"; };
+		69DCBD254A84F8C77A0A40CD /* Pods_TextEncrypter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextEncrypter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5D4C74D76B28377281E2B1 /* Pods-TextEncrypter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextEncrypter.release.xcconfig"; path = "Target Support Files/Pods-TextEncrypter/Pods-TextEncrypter.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FCFAC62A31B34000E0B399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBFEF5D9E9885F4B481830B /* Pods_TextEncrypter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1235F55554C71D3586C9BAE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69DCBD254A84F8C77A0A40CD /* Pods_TextEncrypter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32676B482A38584200A83EFA /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				32676B5C2A38615D00A83EFA /* DisplayFilesUseCase.swift */,
+				32676B4D2A38596B00A83EFA /* FilesUseCase.swift */,
+				32676B602A3881B700A83EFA /* DisplayFileUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		32676B4F2A3859E000A83EFA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				32FECECF2A31D8E300CCF678 /* SecretDataWorkers.swift */,
+				32676B502A385A7200A83EFA /* CryptoService.swift */,
+				32676B522A385AFE00A83EFA /* FileVaultService.swift */,
+				32676B542A385B7B00A83EFA /* KeyService.swift */,
+				32FECEC92A31C29000CCF678 /* KeychainWrapper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		32676B562A385C0D00A83EFA /* DataStores */ = {
+			isa = PBXGroup;
+			children = (
+				32676B572A385C1E00A83EFA /* FilesDataStore.swift */,
+			);
+			path = DataStores;
+			sourceTree = "<group>";
+		};
+		32676B592A385D4800A83EFA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				32676B5A2A385D5800A83EFA /* FilesListViewModel.swift */,
+				32676B622A38827200A83EFA /* FileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		32676B642A3889E100A83EFA /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				32676B652A3889ED00A83EFA /* FilesListRouter.swift */,
+				32676B672A388FB000A83EFA /* FileRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		32FCFAC02A31B34000E0B399 = {
+			isa = PBXGroup;
+			children = (
+				32FCFACB2A31B34000E0B399 /* TextEncrypter */,
+				32FCFACA2A31B34000E0B399 /* Products */,
+				8B1AEB62CF2475967F9927E3 /* Pods */,
+				1235F55554C71D3586C9BAE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32FCFACA2A31B34000E0B399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32FCFAC92A31B34000E0B399 /* TextEncrypter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32FCFACB2A31B34000E0B399 /* TextEncrypter */ = {
+			isa = PBXGroup;
+			children = (
+				32FECED12A31FA0F00CCF678 /* Domain */,
+				32FECEB82A31B74A00CCF678 /* Data */,
+				32FECEB72A31B74200CCF678 /* Presentation */,
+				32FCFACC2A31B34000E0B399 /* AppDelegate.swift */,
+				32FCFACE2A31B34000E0B399 /* SceneDelegate.swift */,
+				32FCFAD52A31B34200E0B399 /* Assets.xcassets */,
+				32FCFADA2A31B34200E0B399 /* Info.plist */,
+			);
+			path = TextEncrypter;
+			sourceTree = "<group>";
+		};
+		32FECEB72A31B74200CCF678 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				32676B642A3889E100A83EFA /* Routers */,
+				32676B592A385D4800A83EFA /* ViewModels */,
+				32FECEC32A31BACF00CCF678 /* Controllers */,
+				32FECEC22A31BAC100CCF678 /* Storyboards */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		32FECEB82A31B74A00CCF678 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				32676B562A385C0D00A83EFA /* DataStores */,
+				32FECEBA2A31B7D800CCF678 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		32FECEB92A31B75000CCF678 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				32FECEBB2A31B7F500CCF678 /* FileData.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		32FECEBA2A31B7D800CCF678 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32FECEC72A31BE0300CCF678 /* RealmFileData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		32FECEC22A31BAC100CCF678 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				32FCFAD22A31B34000E0B399 /* Main.storyboard */,
+				32FCFAD72A31B34200E0B399 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		32FECEC32A31BACF00CCF678 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32FCFAD02A31B34000E0B399 /* FilesListViewController.swift */,
+				32676B5E2A387FC400A83EFA /* FileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		32FECED12A31FA0F00CCF678 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				32676B4F2A3859E000A83EFA /* Services */,
+				32676B482A38584200A83EFA /* UseCases */,
+				32FECEB92A31B75000CCF678 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		8B1AEB62CF2475967F9927E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56396B42FF71FF7BB350918A /* Pods-TextEncrypter.debug.xcconfig */,
+				FF5D4C74D76B28377281E2B1 /* Pods-TextEncrypter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32FCFAC82A31B34000E0B399 /* TextEncrypter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FCFADD2A31B34200E0B399 /* Build configuration list for PBXNativeTarget "TextEncrypter" */;
+			buildPhases = (
+				8E5E93D23ED07EECA404D4EA /* [CP] Check Pods Manifest.lock */,
+				32FCFAC52A31B34000E0B399 /* Sources */,
+				32FCFAC62A31B34000E0B399 /* Frameworks */,
+				32FCFAC72A31B34000E0B399 /* Resources */,
+				831E0A5AD5BDC870364557A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextEncrypter;
+			productName = TextEncrypter;
+			productReference = 32FCFAC92A31B34000E0B399 /* TextEncrypter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32FCFAC12A31B34000E0B399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					32FCFAC82A31B34000E0B399 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 32FCFAC42A31B34000E0B399 /* Build configuration list for PBXProject "TextEncrypter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32FCFAC02A31B34000E0B399;
+			productRefGroup = 32FCFACA2A31B34000E0B399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32FCFAC82A31B34000E0B399 /* TextEncrypter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32FCFAC72A31B34000E0B399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FCFAD92A31B34200E0B399 /* LaunchScreen.storyboard in Resources */,
+				32FCFAD62A31B34200E0B399 /* Assets.xcassets in Resources */,
+				32FCFAD42A31B34000E0B399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		831E0A5AD5BDC870364557A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextEncrypter/Pods-TextEncrypter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextEncrypter/Pods-TextEncrypter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextEncrypter/Pods-TextEncrypter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E5E93D23ED07EECA404D4EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextEncrypter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FCFAC52A31B34000E0B399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FCFAD12A31B34000E0B399 /* FilesListViewController.swift in Sources */,
+				32676B552A385B7B00A83EFA /* KeyService.swift in Sources */,
+				32676B5F2A387FC400A83EFA /* FileViewController.swift in Sources */,
+				32676B682A388FB000A83EFA /* FileRouter.swift in Sources */,
+				32676B632A38827200A83EFA /* FileViewModel.swift in Sources */,
+				32676B5B2A385D5800A83EFA /* FilesListViewModel.swift in Sources */,
+				32FECEC82A31BE0300CCF678 /* RealmFileData.swift in Sources */,
+				32FECED02A31D8E300CCF678 /* SecretDataWorkers.swift in Sources */,
+				32676B4E2A38596B00A83EFA /* FilesUseCase.swift in Sources */,
+				32676B5D2A38615E00A83EFA /* DisplayFilesUseCase.swift in Sources */,
+				32676B662A3889ED00A83EFA /* FilesListRouter.swift in Sources */,
+				32FECECA2A31C29000CCF678 /* KeychainWrapper.swift in Sources */,
+				32676B582A385C1E00A83EFA /* FilesDataStore.swift in Sources */,
+				32676B532A385AFE00A83EFA /* FileVaultService.swift in Sources */,
+				32FECEBC2A31B7F500CCF678 /* FileData.swift in Sources */,
+				32676B512A385A7200A83EFA /* CryptoService.swift in Sources */,
+				32FCFACD2A31B34000E0B399 /* AppDelegate.swift in Sources */,
+				32FCFACF2A31B34000E0B399 /* SceneDelegate.swift in Sources */,
+				32676B612A3881B700A83EFA /* DisplayFileUseCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32FCFAD22A31B34000E0B399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FCFAD32A31B34000E0B399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32FCFAD72A31B34200E0B399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FCFAD82A31B34200E0B399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32FCFADB2A31B34200E0B399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32FCFADC2A31B34200E0B399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32FCFADE2A31B34200E0B399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56396B42FF71FF7BB350918A /* Pods-TextEncrypter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97AF9CH96R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextEncrypter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Encrypter;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinkldeath.TextEncrypter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		32FCFADF2A31B34200E0B399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5D4C74D76B28377281E2B1 /* Pods-TextEncrypter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97AF9CH96R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextEncrypter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Encrypter;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinkldeath.TextEncrypter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32FCFAC42A31B34000E0B399 /* Build configuration list for PBXProject "TextEncrypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FCFADB2A31B34200E0B399 /* Debug */,
+				32FCFADC2A31B34200E0B399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FCFADD2A31B34200E0B399 /* Build configuration list for PBXNativeTarget "TextEncrypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FCFADE2A31B34200E0B399 /* Debug */,
+				32FCFADF2A31B34200E0B399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32FCFAC12A31B34000E0B399 /* Project object */;
+}
